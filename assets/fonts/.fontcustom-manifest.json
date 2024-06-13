@@ -1,0 +1,103 @@
+{
+  "checksum": {
+    "previous": "fdca442cabba2ee7e0b7b030377dd25a5e8329e0a1cbf08a2cf0b722bbbe24ad",
+    "current": "fdca442cabba2ee7e0b7b030377dd25a5e8329e0a1cbf08a2cf0b722bbbe24ad"
+  },
+  "fonts": [
+    "biff-icons/biff-icons_fdca442cabba2ee7e0b7b030377dd25a.ttf",
+    "biff-icons/biff-icons_fdca442cabba2ee7e0b7b030377dd25a.svg",
+    "biff-icons/biff-icons_fdca442cabba2ee7e0b7b030377dd25a.woff",
+    "biff-icons/biff-icons_fdca442cabba2ee7e0b7b030377dd25a.eot"
+  ],
+  "glyphs": {
+    "se-buy": {
+      "codepoint": 61696,
+      "source": "./se-buy.svg"
+    },
+    "se-close": {
+      "codepoint": 61697,
+      "source": "./se-close.svg"
+    },
+    "se-cook": {
+      "codepoint": 61698,
+      "source": "./se-cook.svg"
+    },
+    "se-defrost": {
+      "codepoint": 61699,
+      "source": "./se-defrost.svg"
+    },
+    "se-download": {
+      "codepoint": 61709,
+      "source": "./se-download.svg"
+    },
+    "se-facebook": {
+      "codepoint": 61700,
+      "source": "./se-facebook.svg"
+    },
+    "se-linkedin": {
+      "codepoint": 61701,
+      "source": "./se-linkedin.svg"
+    },
+    "se-logo": {
+      "codepoint": 61702,
+      "source": "./se-logo.svg"
+    },
+    "se-menu": {
+      "codepoint": 61703,
+      "source": "./se-menu.svg"
+    },
+    "se-play": {
+      "codepoint": 61704,
+      "source": "./se-play.svg"
+    },
+    "se-reheat": {
+      "codepoint": 61705,
+      "source": "./se-reheat.svg"
+    },
+    "se-right-arrow": {
+      "codepoint": 61706,
+      "source": "./se-right-arrow.svg"
+    },
+    "se-twitter": {
+      "codepoint": 61707,
+      "source": "./se-twitter.svg"
+    },
+    "se-youtube": {
+      "codepoint": 61708,
+      "source": "./se-youtube.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "biff-icons",
+    "fonts": "assets/fonts/",
+    "force": false,
+    "input": {
+      "templates": ".",
+      "vectors": "."
+    },
+    "no_hash": false,
+    "output": {
+      "css": "biff-icons",
+      "fonts": "biff-icons",
+      "preview": "biff-icons"
+    },
+    "preprocessor_path": "../assets/fonts/biff-icons",
+    "quiet": false,
+    "scss": "../../app/",
+    "templates": [
+      "scss"
+    ],
+    "vectors": "icons/"
+  },
+  "templates": [
+    "biff-icons/_biff-icons.scss"
+  ]
+}
